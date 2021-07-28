@@ -1,0 +1,10 @@
+<%= gettext "Hello, %{name}!", name: "Botelho" %>
+<br>
+<%= ngettext "%{name} last login: %{count} day!", "%{name} last login: %{count} days!", 0, name: "Botelho" %>
+<br>
+<%= ngettext "%{name} last login: %{count} day!", "%{name} last login: %{count} days!", 1, name: "Botelho" %>
+<br>
+<%= ngettext "%{name} last login: %{count} day!", "%{name} last login: %{count} days!", 2, name: "Botelho" %>
+<br>
+<a href="?locale=pt_BR">pt_BR</a>
+<a href="?locale=en">en</a>
