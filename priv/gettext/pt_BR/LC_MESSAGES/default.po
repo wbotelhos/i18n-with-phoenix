@@ -16,7 +16,7 @@ msgstr ""
 msgid "Hello, %{name}!"
 msgstr "Olá, %{name}!"
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/i18n_with_phoenix_web/templates/page/index.html.eex:3
 #: lib/i18n_with_phoenix_web/templates/page/index.html.eex:5 lib/i18n_with_phoenix_web/templates/page/index.html.eex:7
 msgid "%{name} last login: %{count} day!"

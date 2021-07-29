@@ -6,5 +6,7 @@
 <br>
 <%= ngettext "%{name} last login: %{count} day!", "%{name} last login: %{count} days!", 2, name: "Botelho" %>
 <br>
+<%= dgettext("admin", "%{name}, logged as an Admin!", name: "Botelho") %>
+<br>
 <a href="?locale=pt_BR">pt_BR</a>
 <a href="?locale=en">en</a>
